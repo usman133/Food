@@ -29,4 +29,6 @@ useEffect (() => {
     searchApi('pasta');
 }, [])
 
+return [searchApi, results, errorMessage]
+
 }
